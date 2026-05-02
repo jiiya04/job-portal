@@ -1,8 +1,8 @@
 import { Routes, Route, Link } from "react-router-dom";
 import { useState } from "react";
-import Home from "./pages/Home";
-import Jobs from "./pages/Jobs";
-import Saved from "./pages/Saved";
+import Home from "./pages/home";
+import Jobs from "./pages/jobs";
+import Saved from "./pages/saved";
 
 function App() {
   const [dark, setDark] = useState(false);
